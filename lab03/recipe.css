@@ -23,3 +23,14 @@ li {
   color: #27ae60;
   margin-bottom: 10px;
 }
+.kaboob {
+  background-image: url('images/img2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+height: 800px;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 10px 20px 40px rgba(255, 0, 0, 0.2);
+  border: 2px solid #FF0000;
+}
