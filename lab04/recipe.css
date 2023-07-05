@@ -35,7 +35,7 @@ height: 800px;
   border: 2px solid #FF0000;
 }
 .container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto; /* Centers the container horizontally */
   display: flex;
 }
