@@ -35,7 +35,7 @@ height: 800px;
   border: 2px solid #FF0000;
 }
 .container {
-  width: 100%;
+  width: 80%;
   margin: 0 auto; /* Centers the container horizontally */
   display: flex;
 }
@@ -56,5 +56,5 @@ a:visited {
 }
 
 a:hover {
-  /*<a href="https://recipes.chefannfoundation.org"> */
+  /* Styles for links on hover */
 }
