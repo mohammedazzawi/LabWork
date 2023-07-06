@@ -34,19 +34,3 @@ height: 800px;
   box-shadow: 10px 20px 40px rgba(255, 0, 0, 0.2);
   border: 2px solid #FF0000;
 }
-.container {
-  width: 80%;
-  margin: 0 auto; /* Centers the container horizontally */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.box {
-  width: 100%;
-  max-width: 800px; /* Adjust the max-width as needed */
-  border: 1px solid black; /* Add a border around the box */
-  padding: 20px; /* Add padding to the box */
-  margin-bottom: 20px; /* Add margin between boxes */
-}
