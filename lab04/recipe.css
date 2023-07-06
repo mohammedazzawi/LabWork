@@ -37,24 +37,19 @@ height: 800px;
 .container {
   width: 80%;
   margin: 0 auto; /* Centers the container horizontally */
-  display: flex;
+  position: relative; /* Enable positioning for child elements */
 }
 
 .left-column {
-  flex: 1; /* Takes up 50% of the container width */
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .right-column {
-  flex: 1; /* Takes up 50% of the container width */
-}
-a:link {
-  /* Styles for normal, unvisited links */
-}
-
-a:visited {
-  /* Styles for visited links */
-}
-
-a:hover {
-  /* Styles for links on hover */
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
