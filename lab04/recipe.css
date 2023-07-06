@@ -37,7 +37,10 @@ height: 800px;
 .container {
   width: 80%;
   margin: 0 auto; /* Centers the container horizontally */
-  position: relative; /* Enable positioning for child elements */
+  display: flex;
+  flex-direction: column; /* Aligns content vertically */
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
 }
 
 .left-column {
