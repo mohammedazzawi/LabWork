@@ -5,22 +5,17 @@ body {
   margin: 20px;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto; /* Centers the container horizontally */
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centers content horizontally */
-  justify-content: center; /* Centers content vertically */
-  text-align: center; /* Centers text within the container */
-}
-
 h1 {
   text-transform: uppercase;
   color: #c0392b;
-  margin-bottom: 20px;
+}
+a:visited {
+  color: green;
 }
 
+a:hover {
+  color: red;
+}
 h2 {
   color: #2980b9;
   margin-bottom: 10px;
@@ -30,33 +25,41 @@ p {
   text-transform: capitalize;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin-bottom: 20px;
-}
-
 li {
   color: #27ae60;
   margin-bottom: 10px;
 }
-
 .kaboob {
   background-image: url('images/img2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 800px;
-  height: 800px;
+  width: 400px;
+height: 400px;
   display: block;
   border-radius: 10px;
   box-shadow: 10px 20px 40px rgba(255, 0, 0, 0.2);
   border: 2px solid #FF0000;
 }
-
+.container {
+  width: 80%;
+  margin: 0 auto; /* Centers the container horizontally */
+}
+#header
+{
+text-align: left;
+}
 .box {
-  width: 100%;
-  max-width: 800px;
-  background-color: white;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
+ display: flex;
+ flex-direction: row;
+}
+.col {
+   flex: 1;
+}
+.border {
+   border: 2px dashed black;
+   padding: 5px;
+}
+#footer{
+  margin-top: 50px;
+  border-bottom: 2px solid blue;
+}
