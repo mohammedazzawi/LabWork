@@ -37,22 +37,40 @@ height: 800px;
 .container {
   width: 80%;
   margin: 0 auto; /* Centers the container horizontally */
-  display: flex;
-  flex-direction: column; /* Aligns content vertically */
-  justify-content: center; /* Centers content vertically */
-  align-items: center; /* Centers content horizontally */
+  display: grid;
+  grid-template-areas:
+    "heading"
+    "ingredients instructions"
+    "paragraph"
+    "link";
+  grid-template-rows: auto auto 1fr auto; /* Define the height of each row */
+  grid-gap: 20px; /* Add gap between grid cells */
 }
 
-.left-column {
-  width: 50%;
-  position: absolute;
-  top: 0;
-  left: 0;
+h1 {
+  grid-area: heading;
 }
 
-.right-column {
-  width: 50%;
-  position: absolute;
-  top: 0;
-  right: 0;
+ul {
+  grid-area: ingredients;
+  border: 1px solid black; /* Add a border around the ingredients box */
+  padding: 10px; /* Add padding to the ingredients box */
+}
+
+ol {
+  grid-area: instructions;
+  border: 1px solid black; /* Add a border around the instructions box */
+  padding: 10px; /* Add padding to the instructions box */
+}
+
+p {
+  grid-area: paragraph;
+  border: 1px solid black; /* Add a border around the paragraph box */
+  padding: 10px; /* Add padding to the paragraph box */
+}
+
+a {
+  grid-area: link;
+  border: 1px solid black; /* Add a border around the link box */
+  padding: 10px; /* Add padding to the link box */
 }
