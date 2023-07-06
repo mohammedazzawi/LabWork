@@ -37,40 +37,16 @@ height: 800px;
 .container {
   width: 80%;
   margin: 0 auto; /* Centers the container horizontally */
-  display: grid;
-  grid-template-areas:
-    "heading"
-    "ingredients instructions"
-    "paragraph"
-    "link";
-  grid-template-rows: auto auto 1fr auto; /* Define the height of each row */
-  grid-gap: 20px; /* Add gap between grid cells */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-h1 {
-  grid-area: heading;
-}
-
-ul {
-  grid-area: ingredients;
-  border: 1px solid black; /* Add a border around the ingredients box */
-  padding: 10px; /* Add padding to the ingredients box */
-}
-
-ol {
-  grid-area: instructions;
-  border: 1px solid black; /* Add a border around the instructions box */
-  padding: 10px; /* Add padding to the instructions box */
-}
-
-p {
-  grid-area: paragraph;
-  border: 1px solid black; /* Add a border around the paragraph box */
-  padding: 10px; /* Add padding to the paragraph box */
-}
-
-a {
-  grid-area: link;
-  border: 1px solid black; /* Add a border around the link box */
-  padding: 10px; /* Add padding to the link box */
+.box {
+  width: 100%;
+  max-width: 800px; /* Adjust the max-width as needed */
+  border: 1px solid black; /* Add a border around the box */
+  padding: 20px; /* Add padding to the box */
+  margin-bottom: 20px; /* Add margin between boxes */
 }
