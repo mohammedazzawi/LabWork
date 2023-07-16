@@ -1,0 +1,65 @@
+body {
+  background-color: lightblue;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #c0392b;
+}
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}
+h2 {
+  color: #2980b9;
+  margin-bottom: 10px;
+}
+
+p {
+  text-transform: capitalize;
+}
+
+li {
+  color: #27ae60;
+  margin-bottom: 10px;
+}
+.kaboob {
+  background-image: url('images/img2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+height: 400px;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 10px 20px 40px rgba(255, 0, 0, 0.2);
+  border: 2px solid #FF0000;
+}
+.container {
+  width: 80%;
+  margin: 0 auto; /* Centers the container horizontally */
+}
+#header
+{
+text-align: left;
+}
+.box {
+ display: flex;
+ flex-direction: row;
+}
+.col {
+   flex: 1;
+}
+.border {
+   border: 2px dashed black;
+   padding: 5px;
+}
+#footer{
+  margin-top: 50px;
+  border-bottom: 2px solid blue;
+}
