@@ -65,7 +65,7 @@ text-align: left;
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
  
   .box {
     flex-direction: column;
