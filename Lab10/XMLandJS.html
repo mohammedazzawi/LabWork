@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML and JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #007BFF;
+        }
+
+        h2 {
+            color: #009688;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>What is XML?</h1>
+    <p>XML (eXtensible Markup Language) is a text-based data format used to store and transport structured information between applications. It is designed to be self-descriptive, making it easy for computers to process and interpret the data it contains.</p>
+
+    <h1>How is XML used?</h1>
+    <p>XML is used in various domains, including web development, data interchange, configuration files, and more. Its flexibility and readability make it an ideal choice for representing and sharing structured data.</p>
+
+    <h1>What does XML look like? (Example)</h1>
+    <pre>
+        <code>
+            &lt;book&gt;
+                &lt;title&gt;Harry Potter and the Sorcerer's Stone&lt;/title&gt;
+                &lt;author&gt;J.K. Rowling&lt;/author&gt;
+                &lt;genre&gt;Fantasy&lt;/genre&gt;
+                &lt;year&gt;1997&lt;/year&gt;
+            &lt;/book&gt;
+        </code>
+    </pre>
+    <p>This example represents a simple XML structure with information about a book.</p>
+
+    <h1>What is JavaScript?</h1>
+    <p>JavaScript is a high-level, interpreted programming language that enables dynamic and interactive behavior on web pages. It is commonly used for client-side scripting to add functionality, interactivity, and responsiveness to websites.</p>
+
+    <h1>How is JavaScript related to HTML and CSS?</h1>
+    <p>HTML (Hypertext Markup Language) is used to create the structure and content of a webpage, while CSS (Cascading Style Sheets) is used for styling and presentation. JavaScript, on the other hand, is responsible for adding interactivity and dynamic elements to the page. It can manipulate HTML and CSS, respond to user interactions, and perform various tasks in the browser environment.</p>
+
+    <h1>Common JavaScript elements, properties, methods, and functions (Examples)</h1>
+    <h2>Elements:</h2>
+    <pre>
+        <code>
+            &lt;button onclick="myFunction()"&gt;Click Me&lt;/button&gt;
+        </code>
+    </pre>
+    <p>This example shows a button element with an "onclick" attribute that triggers the "myFunction" function when clicked.</p>
+
+    <h2>Properties:</h2>
+    <pre>
+        <code>
+            const element = document.getElementById('myElement');
+            const className = element.className;
+        </code>
+    </pre>
+    <p>This example retrieves the "className" property of an element with the ID "myElement" using JavaScript.</p>
+
+    <h2>Methods:</h2>
+    <pre>
+        <code>
+            const myArray = [1, 2, 3];
+            myArray.push(4);
+        </code>
+    </pre>
+    <p>This example uses the "push" method to add an element to the end of the "myArray" array.</p>
+
+    <h2>Functions:</h2>
+    <pre>
+        <code>
+            function greet(name) {
+                return 'Hello, ' + name + '!';
+            }
+            const message = greet('John');
+        </code>
+    </pre>
+    <p>This example defines a function called "greet" that takes a parameter "name" and returns a greeting message.</p>
+</body>
+</html>
