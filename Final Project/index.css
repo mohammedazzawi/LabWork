@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/photo-1464618663641-bbdd760ae84a.jpeg"); 
+
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+nav li {
+    display: inline;
+    margin-right: 1rem;
+}
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FF5733; /* Orange color */
+}
+nav a:hover {
+    color: #FF9933; /* Lighter orange color on hover */
+}
+main {
+    padding: 2rem;
+}
+h2 {
+    font-size: 2rem;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+#web-activities {
+    background-color: white;
+    background-image: url("images/pexels-johannes-plenio-1103970.jpg"); 
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #007BFF; /* Blue color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.main-content {
+    padding: 2rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.activity-list {
+    list-style: disc;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.activity-list li {
+    margin-bottom: 0.5rem;
+}
+.career-image {
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto;
+}
+.section-title {
+    text-align: center;
+}
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #555;
+}
+.social-media-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.social-media-table td {
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.social-media-table td:last-child {
+    border-bottom: none;
+}
+
+.social-media-table a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.social-media-table a:hover {
+    text-decoration: underline;
+}
